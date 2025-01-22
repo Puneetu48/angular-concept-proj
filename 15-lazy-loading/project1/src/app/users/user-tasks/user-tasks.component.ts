@@ -47,5 +47,5 @@ export const resolveTitle: ResolveFn<string> = (
   activatedRoute,
   routerState
 ) => {
-  return resolveUserName(activatedRoute, routerState) + '\'s Tasks'
-}
+  return resolveUserName(activatedRoute, routerState) + "'s tasks";
+};
